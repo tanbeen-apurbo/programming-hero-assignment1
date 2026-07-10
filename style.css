@@ -504,3 +504,350 @@ color: #ddd;
 }
 
 
+/* Responsive for all devices */
+
+/* Tablet */
+
+@media (max-width: 1024px) {
+ 
+  .container {
+    padding: 0 1.5rem;
+  }
+ 
+  /* Navbar */
+  .navbar {
+    padding: 1rem 1.5rem;
+  }
+ 
+  .nav-items a {
+    font-size: 12px;
+  }
+ 
+  /* Hero */
+  .hero-bg {
+    height: 500px;
+  }
+ 
+  .hero-text {
+    left: 60px;
+    right: 60px;
+    width: auto;
+  }
+ 
+  .hero-text h1 {
+    font-size: 46px;
+    line-height: 48px;
+  }
+ 
+  /* Speakers */
+  .grid-speaker {
+    grid-gap: 20px;
+    padding: 1rem;
+    margin: 1rem;
+  }
+ 
+  /* Tickets */
+  .Ticket {
+    gap: 2rem;
+  }
+ 
+  .title {
+    margin-left: 0;
+    text-align: left;
+  }
+}
+ 
+ /* mobile/tablet */
+@media (max-width: 768px) {
+ 
+  .container {
+    padding: 0 1rem;
+  }
+ 
+  /* Navbar */
+  .navbar {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 1rem;
+    row-gap: 12px;
+  }
+ 
+  .navbar .logo {
+    width: auto;
+  }
+ 
+  .navbar .logo img {
+    width: 110px;
+    height: auto;
+  }
+ 
+  .nav-items {
+    width: 100%;
+    order: 3;
+    flex-wrap: wrap;
+    gap: 1rem;
+    row-gap: 10px;
+  }
+ 
+  .nav-items a {
+    font-size: 13px;
+  }
+ 
+  .btn {
+    margin-left: 0;
+  }
+ 
+  /* Hero */
+  .hero-bg {
+    height: auto;
+    min-height: 480px;
+    padding: 3rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+  }
+ 
+  .hero-text {
+    position: static;
+    top: auto;
+    left: auto;
+    transform: none;
+    align-items: center;
+    text-align: center;
+    gap: 14px;
+  }
+ 
+  .hero-text h1 {
+    font-size: 34px;
+    line-height: 40px;
+    text-align: center;
+  }
+ 
+  .hero-text p {
+    font-size: 13px;
+    line-height: 22px;
+  }
+ 
+  
+  .hero-text p br {
+    display: none;
+  }
+ 
+  .btn1 {
+    position: static;
+    top: auto;
+    transform: none;
+  }
+ 
+  /* Speakers */
+  .speaker-section h1 {
+    font-size: 26px;
+    margin-top: 2.5rem;
+  }
+ 
+  .grid-speaker {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "card1"
+      "card2"
+      "card3"
+      "card4";
+    grid-auto-rows: auto;
+    padding: 1rem;
+    margin: 1rem 0;
+  }
+ 
+  .speak img {
+    height: 240px;
+  }
+ 
+  /* Tickets */
+  .Ticket-Section h1 {
+    font-size: 26px;
+  }
+ 
+  .Ticket {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 0;
+  }
+ 
+  .box,
+  .box-spacial {
+    width: 100%;
+    max-width: 380px;
+  }
+ 
+  .title {
+    margin-left: 0;
+    width: 100%;
+  }
+ 
+  .title h2,
+  .title p {
+    text-align: center;
+  }
+ 
+  /* Footer */
+  .footer {
+    height: auto;
+    padding-bottom: 1.5rem;
+  }
+ 
+  .footer-upper {
+    flex-direction: column;
+    height: auto;
+    gap: 16px;
+    padding: 2rem 1rem 1.5rem;
+  }
+ 
+  
+  .footer-upper .logo {
+    width: auto;
+    height: auto;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+  }
+ 
+  .footer-upper .logo img {
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+    flex: none;
+  }
+ 
+  .footer-upper .logo .dev {
+    font-size: 16px;
+    line-height: 1.3;
+  }
+ 
+  .icons {
+    gap: 1.5rem;
+  }
+ 
+  .icons img {
+    width: 36px;
+    height: 36px;
+  }
+ 
+  .footer-lower {
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 10px;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+ 
+  .copy {
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+  }
+ 
+  /* FAQ */
+  .faq-section {
+    padding: 50px 16px;
+  }
+ 
+  .faq-title {
+    font-size: 28px;
+  }
+}
+ 
+/* smaller mobile */
+@media (max-width: 480px) {
+ 
+  /* Navbar */
+  .navbar .logo img {
+    width: 90px;
+  }
+ 
+  .nav-items {
+    gap: 0.6rem;
+  }
+ 
+  .nav-items a {
+    font-size: 12px;
+  }
+ 
+  .btn button {
+    padding: 0.4rem 1rem;
+    font-size: 13px;
+  }
+ 
+  /* Footer */
+  .footer-upper .logo img {
+    width: 30px;
+    height: 30px;
+  }
+ 
+  .footer-upper .logo .dev {
+    font-size: 14px;
+  }
+ 
+  .icons img {
+    width: 30px;
+    height: 30px;
+  }
+ 
+  .icons {
+    gap: 1rem;
+  }
+ 
+  /* Hero */
+  .hero-bg {
+    min-height: 420px;
+    padding: 2.5rem 1rem;
+  }
+ 
+  .hero-text h1 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+ 
+  .hero-text p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+ 
+  .btn1 button {
+    padding: 0.5rem 1.2rem;
+    font-size: 13px;
+  }
+ 
+  /* Speakers */
+  .speak img {
+    height: 200px;
+  }
+ 
+  /* Tickets */
+  .box,
+  .box-spacial {
+    max-width: 100%;
+  }
+ 
+  .list {
+    padding: 1.2rem;
+  }
+ 
+  /* FAQ */
+  .faq-title {
+    font-size: 22px;
+  }
+ 
+  .faq-subtitle {
+    font-size: 14px;
+  }
+ 
+  .faq-question {
+    font-size: 15px;
+  }
+ 
+  .faq-answer {
+    font-size: 14px;
+  }
+}
