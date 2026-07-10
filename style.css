@@ -120,7 +120,7 @@ body {
 .hero-text {
     position: absolute;
     top: 40%;
-    left: 300px;
+    left: 450px;
     transform: translateY(-60%);
     display: flex;
     flex-direction: column;
