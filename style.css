@@ -558,6 +558,8 @@ color: #ddd;
 }
  
  /* mobile/tablet */
+
+
 @media (max-width: 768px) {
  
   .container {
@@ -759,6 +761,8 @@ color: #ddd;
 }
  
 /* smaller mobile */
+
+
 @media (max-width: 480px) {
  
   /* Navbar */
