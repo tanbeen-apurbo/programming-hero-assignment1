@@ -31,7 +31,7 @@ body {
     align-items: center;
     padding: 1rem 2rem;
     background-color: transparent;
-    max-width: 1400px;
+    max-width: 1700px;
     margin: 0 auto;
     height: 100px;
 }
@@ -100,7 +100,7 @@ body {
     background-size: cover;
     background-position: center;
     width: 100%;
-    max-width: 1408px;
+    max-width: 1700px;
     height: 606px;
     position: relative;
     display: flex;
