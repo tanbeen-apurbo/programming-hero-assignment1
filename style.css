@@ -352,10 +352,14 @@ margin-bottom: 1rem;
     margin-left: -100px;
 
 }
+.title h2 {
+    text-align: left;
+}
 
 .title p {
     font-size: 10px;
  margin-left: -10pxpx;
+ text-align: left;
 }
 .list {
     padding: 2rem;
@@ -428,3 +432,75 @@ color: #ddd;
     display: flex;
     gap: 10px;
 }
+
+
+
+
+
+/* faq-section */
+
+.faq-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 80px 20px;
+}
+ 
+.faq-title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: #111111;
+  margin-bottom: 10px;
+}
+ 
+.faq-subtitle {
+  text-align: center;
+  font-size: 16px;
+  color: #666666;
+  margin-bottom: 40px;
+}
+ 
+.faq-box {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  padding: 20px;
+  background-color: #ffffff;
+}
+ 
+.faq-question {
+  font-size: 17px;
+  font-weight: bold;
+  color: #111111;
+  cursor: pointer;
+  list-style: none;
+}
+ 
+.faq-question::-webkit-details-marker {
+  display: none;
+}
+ 
+.faq-answer {
+  font-size: 15px;
+  color: #444444;
+  margin-top: 12px;
+  margin-bottom: 0;
+  line-height: 1.6;
+}
+ 
+.faq-link {
+  display: block;
+  text-align: center;
+  margin: 30px auto 0 auto;
+  background-color: #2554eb;
+  color: #ffffff;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  width: 160px;
+}
+
+
