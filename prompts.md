@@ -1,0 +1,1 @@
+prompt for the AI relevant faq-section : create a relevant section according to the website in the missing something area.
